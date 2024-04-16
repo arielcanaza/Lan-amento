@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .hed{
     display: flex;
@@ -23,7 +24,7 @@
 /* 1pate */
 
 .img{
-    padding: 20rem;
+    padding: 12rem;
     background-image: url(imagen/iphone=photo.jpg);
     background-size: cover;
     margin-left: -100px;
@@ -50,4 +51,32 @@ h1{
 }
 .img button:hover{
     cursor: pointer;
+}
+
+.div{
+    padding: 12rem;
+    display: flex;
+    font-size: 1.5rem;background-color:  rgba(0, 0, 255, 0.671);
+    color: white;
+    justify-items: center;
+
+}
+
+
+
+
+
+.section{
+   background-image: url(imagen/ok.png);
+   padding: 15rem;
+   background-size: cover;
+}
+
+.section a button{
+    padding: 10px;
+
+}
+
+.section a{
+    
 }
